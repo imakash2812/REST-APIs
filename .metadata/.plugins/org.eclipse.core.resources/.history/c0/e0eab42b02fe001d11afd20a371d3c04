@@ -1,0 +1,10 @@
+server.port=8081
+spring.data.mongodb=mongodb://localhost:27017
+
+#spring.data.mongodb.host=localhost
+#spring.data.mongodb.port=27017
+#spring.data.mongodb.database=testdb
+#server.servlet.context-path=/Cd
+
+#profile that we want to use keep it as active state
+spring.profiles.active=test	

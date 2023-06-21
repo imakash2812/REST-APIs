@@ -1,0 +1,95 @@
+2023-05-29 14:51:23,424INFO StartupInfoLogger:51-[]Starting EmployeeApplication using Java 17.0.6 with PID 19392 (C:\Users\AkashMaurya\Desktop\RESTAPIs\Employee\target\classes started by AkashMaurya in C:\Users\AkashMaurya\Desktop\RESTAPIs\Employee)
+2023-05-29 14:51:23,428INFO SpringApplication:638-[]The following 1 profile is active: "test"
+2023-05-29 14:51:23,493INFO DeferredLog:250-[]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-29 14:51:23,494INFO DeferredLog:250-[]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-29 14:51:24,409INFO RepositoryConfigurationDelegate:138-[]Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-05-29 14:51:24,490INFO RepositoryConfigurationDelegate:208-[]Finished Spring Data repository scanning in 74 ms. Found 1 MongoDB repository interfaces.
+2023-05-29 14:51:25,136INFO TomcatWebServer:108-[]Tomcat initialized with port(s): 8083 (http)
+2023-05-29 14:51:25,153INFO DirectJDKLog:173-[]Starting service [Tomcat]
+2023-05-29 14:51:25,153INFO DirectJDKLog:173-[]Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-29 14:51:25,280INFO DirectJDKLog:173-[]Initializing Spring embedded WebApplicationContext
+2023-05-29 14:51:25,280INFO ServletWebServerApplicationContext:291-[]Root WebApplicationContext: initialization completed in 1785 ms
+2023-05-29 14:51:25,603INFO SLF4JLogger:71-[]MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.2"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.6+10"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@74c5d06c]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-05-29 14:51:25,626INFO SLF4JLogger:71-[]Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=30216700}
+2023-05-29 14:51:25,794INFO OptionalLiveReloadServer:59-[]LiveReload server is running on port 35729
+2023-05-29 14:51:26,508INFO TomcatWebServer:220-[]Tomcat started on port(s): 8083 (http) with context path ''
+2023-05-29 14:51:26,521INFO StartupInfoLogger:57-[]Started EmployeeApplication in 4.016 seconds (process running for 5.186)
+2023-05-29 14:51:42,052INFO DirectJDKLog:173-[]Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-29 14:51:42,054INFO FrameworkServlet:532-[]Initializing Servlet 'dispatcherServlet'
+2023-05-29 14:51:42,056INFO FrameworkServlet:554-[]Completed initialization in 2 ms
+2023-05-29 14:51:43,232INFO AbstractOpenApiResource:371-[]Init duration for springdoc-openapi is: 553 ms
+2023-05-29 15:25:50,094INFO SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159-[]Application shutdown requested.
+2023-05-29 15:25:50,122INFO DirectJDKLog:173-[]Stopping service [Tomcat]
+2023-05-29 15:25:50,127INFO DirectJDKLog:173-[]Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-29 15:25:53,436INFO StartupInfoLogger:51-[]Starting EmployeeApplication using Java 17.0.6 with PID 29576 (C:\Users\AkashMaurya\Desktop\RESTAPIs\Employee\target\classes started by AkashMaurya in C:\Users\AkashMaurya\Desktop\RESTAPIs\Employee)
+2023-05-29 15:25:53,440INFO SpringApplication:638-[]The following 1 profile is active: "test"
+2023-05-29 15:25:53,516INFO DeferredLog:250-[]Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-29 15:25:53,518INFO DeferredLog:250-[]For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-29 15:25:54,375INFO RepositoryConfigurationDelegate:138-[]Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2023-05-29 15:25:54,451INFO RepositoryConfigurationDelegate:208-[]Finished Spring Data repository scanning in 69 ms. Found 1 MongoDB repository interfaces.
+2023-05-29 15:25:55,024INFO TomcatWebServer:108-[]Tomcat initialized with port(s): 8083 (http)
+2023-05-29 15:25:55,035INFO DirectJDKLog:173-[]Starting service [Tomcat]
+2023-05-29 15:25:55,035INFO DirectJDKLog:173-[]Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-05-29 15:25:55,137INFO DirectJDKLog:173-[]Initializing Spring embedded WebApplicationContext
+2023-05-29 15:25:55,138INFO ServletWebServerApplicationContext:291-[]Root WebApplicationContext: initialization completed in 1617 ms
+2023-05-29 15:25:55,384INFO SLF4JLogger:71-[]MongoClient with metadata {"driver": {"name": "mongo-java-driver|sync|spring-boot", "version": "4.8.2"}, "os": {"type": "Windows", "name": "Windows 11", "architecture": "amd64", "version": "10.0"}, "platform": "Java/Eclipse Adoptium/17.0.6+10"} created with settings MongoClientSettings{readPreference=primary, writeConcern=WriteConcern{w=null, wTimeout=null ms, journal=null}, retryWrites=true, retryReads=true, readConcern=ReadConcern{level=null}, credential=null, streamFactoryFactory=null, commandListeners=[], codecRegistry=ProvidersCodecRegistry{codecProviders=[ValueCodecProvider{}, BsonValueCodecProvider{}, DBRefCodecProvider{}, DBObjectCodecProvider{}, DocumentCodecProvider{}, CollectionCodecProvider{}, IterableCodecProvider{}, MapCodecProvider{}, GeoJsonCodecProvider{}, GridFSFileCodecProvider{}, Jsr310CodecProvider{}, JsonObjectCodecProvider{}, BsonCodecProvider{}, EnumCodecProvider{}, com.mongodb.Jep395RecordCodecProvider@507e641e]}, clusterSettings={hosts=[localhost:27017], srvServiceName=mongodb, mode=SINGLE, requiredClusterType=UNKNOWN, requiredReplicaSetName='null', serverSelector='null', clusterListeners='[]', serverSelectionTimeout='30000 ms', localThreshold='30000 ms'}, socketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=0, receiveBufferSize=0, sendBufferSize=0}, heartbeatSocketSettings=SocketSettings{connectTimeoutMS=10000, readTimeoutMS=10000, receiveBufferSize=0, sendBufferSize=0}, connectionPoolSettings=ConnectionPoolSettings{maxSize=100, minSize=0, maxWaitTimeMS=120000, maxConnectionLifeTimeMS=0, maxConnectionIdleTimeMS=0, maintenanceInitialDelayMS=0, maintenanceFrequencyMS=60000, connectionPoolListeners=[], maxConnecting=2}, serverSettings=ServerSettings{heartbeatFrequencyMS=10000, minHeartbeatFrequencyMS=500, serverListeners='[]', serverMonitorListeners='[]'}, sslSettings=SslSettings{enabled=false, invalidHostNameAllowed=false, context=null}, applicationName='null', compressorList=[], uuidRepresentation=JAVA_LEGACY, serverApi=null, autoEncryptionSettings=null, contextProvider=null}
+2023-05-29 15:25:55,424INFO SLF4JLogger:71-[]Monitor thread successfully connected to server with description ServerDescription{address=localhost:27017, type=STANDALONE, state=CONNECTED, ok=true, minWireVersion=0, maxWireVersion=17, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=50064500}
+2023-05-29 15:25:55,587INFO OptionalLiveReloadServer:59-[]LiveReload server is running on port 35729
+2023-05-29 15:25:56,355INFO TomcatWebServer:220-[]Tomcat started on port(s): 8083 (http) with context path ''
+2023-05-29 15:25:56,368INFO StartupInfoLogger:57-[]Started EmployeeApplication in 3.517 seconds (process running for 4.629)
+2023-05-29 15:26:28,917INFO DirectJDKLog:173-[]Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-29 15:26:28,918INFO FrameworkServlet:532-[]Initializing Servlet 'dispatcherServlet'
+2023-05-29 15:26:28,924INFO FrameworkServlet:554-[]Completed initialization in 4 ms
+2023-05-29 15:26:29,786INFO AbstractOpenApiResource:371-[]Init duration for springdoc-openapi is: 558 ms
+2023-05-29 15:32:09,746ERRORDirectJDKLog:175-[]Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.multipart.MultipartException: Current request is not a multipart request] with root cause
+org.springframework.web.multipart.MultipartException: Current request is not a multipart request
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValueInternal(RequestParamMethodArgumentResolver.java:210)
+	at org.springframework.web.method.annotation.RequestParamMethodArgumentResolver.handleMissingValue(RequestParamMethodArgumentResolver.java:193)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:114)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:181)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:148)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:884)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1081)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:974)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1011)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:205)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:174)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:149)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:166)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:341)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:390)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:894)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)

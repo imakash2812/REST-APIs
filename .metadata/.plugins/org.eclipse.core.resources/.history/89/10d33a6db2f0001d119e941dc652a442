@@ -1,0 +1,87 @@
+package com.example.demo.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.example.demo.model.Employee;
+import com.example.demo.service.EmployeeService;
+
+@RestController
+@RequestMapping("/employee")
+@CrossOrigin
+public class EmployeeController {
+
+	@Autowired
+	private EmployeeService employeeService;
+	
+	@GetMapping("/getemployees")
+	public List<Employee> getAllEmployees() {
+		return employeeService.getAllEmployees();
+//		return employeeService.getAllEmployees();
+	}
+	
+	@GetMapping("/getemployees/{id}")
+	public ResponseEntity<Employee> getEmployeeById(@PathVariable(value="id") int id) {
+		try {
+		Employee employee= employeeService.getEmployeeById(id);
+		return new ResponseEntity<Employee>(employee,HttpStatus.OK);
+		}
+		catch(Exception e) {
+			return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+		}
+//		return employeeService.getEmployeeById(id);
+	}
+	
+	@GetMapping("/getemployees/name")
+	public ResponseEntity<Employee> getEmployeeByName(@RequestParam(value="name") String name) {
+		
+		try {
+			Employee employee= employeeService.getEmployeeByName(name);
+			return new ResponseEntity<Employee>(employee,HttpStatus.OK);
+			}
+			catch(Exception e) {
+				return new ResponseEntity<>(HttpStatus.NOT_FOUND);
+			}
+//		return employeeService.getEmployeeByName(name);
+	}
+	
+	@PostMapping("/addemployee")
+	public ResponseEntity<Employee> addEmployee(@RequestBody Employee employee) {
+		return employeeService.addEmployee(employee);
+	}
+	
+	@PutMapping("/updateemployee/{id}")
+	public ResponseEntity<Employee> updateEmployee(@PathVariable(value="id") int id, @RequestBody Employee employee) {
+		try {
+		Employee existingemployee=employeeService.getEmployeeById(id);
+		existingemployee.setName(employee.getName());
+		existingemployee.setDepartment(employee.getDepartment());
+		existingemployee.setPhoneNo(employee.getPhoneNo());
+		
+		Employee updated_employee= employeeService.updateEmployee(existingemployee);
+		return new ResponseEntity<Employee>(updated_employee,HttpStatus.OK);
+		}
+		catch(Exception e){
+			return new ResponseEntity<>(HttpStatus.CONFLICT);
+		}
+		//		return employeeService.updateEmployee(employee);
+	}
+	
+	@DeleteMapping("/deleteemployee/{id}")
+	public AddResponse deleteEmployee(@PathVariable(value="id") int id) {
+			return employeeService.deleteEmployee(id);
+	}
+}
